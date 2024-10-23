@@ -1,8 +1,8 @@
 # Importamos las bibliotecas necesarias
-import uvicorn 
-from fastapi import FastAPI, File, UploadFile, Depends
+import uvicorn
+from fastapi import FastAPI, File, UploadFile, Depends #`fastapi` es una biblioteca para construir APIs rápidas en Python
 import pandas as pd
-from pydantic import BaseModel
+from pydantic import BaseModel #`pydantic` es una biblioteca que permite la validación de datos en Python
 import tempfile  # Biblioteca para crear archivos temporales
 import shutil  # Biblioteca para copiar archivos
 import joblib
